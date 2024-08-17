@@ -1,10 +1,15 @@
 import React from 'react'
+import Nav from './components/Nav'
+import Hero from './components/Hero'
+import News from './components/News'
 
 const App = () => {
   return (
-    <div> <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1></div>
+    <div>
+      <Nav />
+      <Hero />
+      <News />
+    </div>
   )
 }
 
