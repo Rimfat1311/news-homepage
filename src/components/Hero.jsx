@@ -2,17 +2,17 @@ import React from 'react'
 import img from '../assets/images/img1.jpg'
 const Hero = () => {
     return (
-        <div className='container w-100 md:w-375  h-screen sm:flex flex-wrap'>
-            <div className='h-screen w-100 '>
-                <div className='flex h-full px-20  gap-5 '>
-                    <div className='flex flex-col gap-5  w-2/3'>
+        <div className='container w-100 md:w-375  h-full  flex-wrap'>
+            <div className='h-full w-full '>
+                <div className='flex flex-col md:flex-row h-full px-20  gap-5'>
+                    <div className='flex flex-col  w-full md:flex-col md:w-2/3 md:gap-5 sm:flex-row'>
                         <div className='h-1/2 bg-red-200 '>
                             <img src={img} alt="" />
                         </div>
 
-                        <div className='flex gap-16 h-1/2 py-5'>
-                            <div className='w-[46%] font-bold text-7xl'>The Brigt Future of Web 3.0?</div>
-                            <div className='w-1/2'>
+                        <div className='flex flex-col md:flex-row h-full py-5 md:gap-16 md:h-1/2'>
+                            <div className='md:w-[46%] w-full font-bold md:text-7xl text-2xl'>The Brigt Future of Web 3.0?</div>
+                            <div className='md:w-1/2 w-full'>
                                 <p>we dive into the next evolution of the web that claims to put the power of the platforms back in to the hands of the people. But is  it really fulfilling its promise?</p>
                                 <button className='bg-[#F44B3D] text-white my-10 py-5 px-10 space-x-4 from-neutral-200'>READ MORE</button>
                             </div>
@@ -21,7 +21,7 @@ const Hero = () => {
 
                     </div>
 
-                    <div className='bg-black w-1/3 p-8'>
+                    <div className='bg-black w-full md:w-1/3 p-8'>
                         <span className=' text-[#F8AA3E] font-bold text-3xl mt-5'>New</span>
                         <div className='text-gray-200 pt-5'>
                             <h1 className='font-bold py-1 pt-5'>Hydrogen VS Electric Cars</h1>
