@@ -6,7 +6,7 @@ const Hero = () => {
             <div className='h-full w-full '>
                 <div className='flex flex-col md:flex-row h-full px-20  gap-5'>
                     <div className='flex flex-col  w-full md:flex-col md:w-2/3 md:gap-5 sm:flex-row'>
-                        <div className='h-1/2 bg-red-200 '>
+                        <div className='h-1/2  '>
                             <img src={img} alt="" />
                         </div>
 

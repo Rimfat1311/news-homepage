@@ -31,7 +31,7 @@ const Nav = () => {
     };
 
     return (
-        <div className='relative flex justify-between items-center px-4 py-6 md:px-20 md:py-20'>
+        <div className='relative flex justify-between items-center px-4 py-6 md:px-20 md:py-10 '>
             <Logo />
 
             {/* Menu Toggle Icon */}
