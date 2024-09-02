@@ -4,8 +4,9 @@ const Blogs = ({ blogs }) => {
   return (
     <div className="bg-white p-4 rounded-lg shadow-md px-20">
       <h1 className="text-2xl font-bold text-blue-950 text-center mb-4">
-        Blog Posts
+         Blog Posts
       </h1>
+      <div></div>
       <hr className="my-2 pb-4 border-gray-600" />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {blogs.map((blog, index) => (
