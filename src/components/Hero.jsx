@@ -2,7 +2,7 @@ import React from 'react'
 import img from '../assets/images/img1.jpg'
 const Hero = () => {
     return (
-        <div className='container w-100 md:w-375  h-full  flex-wrap'>
+        <div className='w-full   h-full'>
             <div className='h-full w-full '>
                 <div className='flex flex-col md:flex-row h-full px-20  gap-5'>
                     <div className='flex flex-col  w-full md:flex-col md:w-2/3 md:gap-5 sm:flex-row'>
@@ -10,7 +10,7 @@ const Hero = () => {
                             <img src={img} alt="" />
                         </div>
 
-                        <div className='flex flex-col md:flex-row h-full py-5 md:gap-16 md:h-1/2'>
+                        <div className='flex flex-col md:flex-row h-full py-5 md:gap-8 md:h-1/2'>
                             <div className='md:w-[46%] w-full font-bold md:text-7xl text-2xl'>The Brigt Future of Web 3.0?</div>
                             <div className='md:w-1/2 w-full'>
                                 <p>we dive into the next evolution of the web that claims to put the power of the platforms back in to the hands of the people. But is  it really fulfilling its promise?</p>
