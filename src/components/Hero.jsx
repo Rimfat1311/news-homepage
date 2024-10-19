@@ -1,4 +1,4 @@
-// my hero coponent
+// my hero coponent structure
 import React from 'react'
 import img from '../assets/images/img1.jpg'
 const Hero = () => {
