@@ -13,7 +13,8 @@ const CreateNews = () => {
   return (
     <div>
       <Nav />
-      <NewNews onAddBlog={handleAddBlog} />
+      {/* passing props as function */}
+      <NewNews onAddBlog={handleAddBlog} /> 
       <Footer />
     </div>
   );
